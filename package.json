@@ -1,0 +1,31 @@
+{
+  "name": "webpack-ts-loader-dynamic-import-rr4",
+  "version": "1.0.0",
+  "description": "A repo to try to make webpack dynamic import work wity ts-loader and rr4 isomorphically",
+  "main": "index.js",
+  "dependencies": {
+    "ts-loader": "^4.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "babel-loader": "^8.0.0-beta.4",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraserxu/webpack-ts-loader-dynamic-import-rr4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fraserxu/webpack-ts-loader-dynamic-import-rr4/issues"
+  },
+  "homepage": "https://github.com/fraserxu/webpack-ts-loader-dynamic-import-rr4#readme"
+}
